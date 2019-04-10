@@ -133,8 +133,7 @@
                             "id": ""
                         },
                         "choices": {
-                            "Group 1": "Group 1",
-                            "Group 2": "Group 2"
+
                         },
                         "default_value": [],
                         "allow_null": 0,
@@ -186,7 +185,7 @@
                     {
                         "key": "field_597396e4be81e",
                         "label": "File Description",
-                        "name": "company_file_description",
+                        "name": "group_file_description",
                         "type": "text",
                         "instructions": "",
                         "required": 0,

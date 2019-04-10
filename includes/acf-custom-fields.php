@@ -138,8 +138,7 @@ acf_add_local_field_group(array(
 						'id' => '',
 					),
 					'choices' => array(
-						'Group 1' => 'Group 1',
-						'Group 2' => 'Group 2',
+						
 					),
 					'default_value' => array(
 					),
@@ -193,7 +192,7 @@ acf_add_local_field_group(array(
 				array(
 					'key' => 'field_597396e4be81e',
 					'label' => 'File Description',
-					'name' => 'company_file_description',
+					'name' => 'group_file_description',
 					'type' => 'text',
 					'instructions' => '',
 					'required' => 0,
