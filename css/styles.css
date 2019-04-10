@@ -1,0 +1,106 @@
+.file-vault-logout {
+  margin: 10px 10px 30px;
+  float: right;
+}
+
+.file-vault-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.file-vault-file-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0 1% 3em;
+  padding: 5px;
+  background: #d9d9d9;
+  width: 31%;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid #d3d3d3;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
+}
+
+.file-vault-file-card-title {
+  margin: 10px 0;
+  font-size: 1.3em;
+}
+
+.file-vault-file-card-desc {
+  font-size: .8em;
+}
+
+.download-icon {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin: 12px;
+}
+
+.file-vault-file-card-title {
+  clear: none;
+}
+
+.file-vault-file-card-download-button {
+  margin-top: auto;
+  background: white;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: sans-serif;
+}
+
+.file-vault-file-card-download-button:hover {
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+}
+
+.file-vault-file-card-download-button {
+  background: white;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* medium and down */
+@media (max-width: 60rem) {
+  .entry-title { background: orange;}
+  .file-vault-file-card {
+    width: 31%;
+    margin: 0 1% 3em;
+  }
+  /*.file-vault-file-card-title {  }*/
+}
+
+/* small and down */
+@media (max-width: 45rem) {
+  .entry-title { background: crimson;}
+  .file-vault-file-card {
+    width: 48%;
+    margin: 0 1% 3em;
+  }
+}
+
+/* xtra small */
+@media (max-width: 30rem) {
+  .entry-title { background: green;}
+  .file-vault-file-card {
+    width: 98%;
+    margin: 0 1% 3em;
+  }
+}
